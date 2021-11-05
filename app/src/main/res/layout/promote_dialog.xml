@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/promoteQueen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Queen" />
+
+    <Button
+        android:id="@+id/promoteRook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rook" />
+
+    <Button
+        android:id="@+id/promoteKnight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Knight" />
+
+    <Button
+        android:id="@+id/promoteBishop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bishop" />
+</LinearLayout>

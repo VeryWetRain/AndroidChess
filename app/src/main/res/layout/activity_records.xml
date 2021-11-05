@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Records">
+
+    <Button
+        android:id="@+id/sortTitle"
+        android:text="@string/sortTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sortTitle"
+        />
+
+    <Button
+        android:id="@+id/sortDate"
+        android:text="@string/sortDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sortDate"
+        />
+
+    <ListView
+        android:id="@+id/recordlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
